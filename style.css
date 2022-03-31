@@ -1,0 +1,80 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: dodgerblue;
+}
+#container {
+    background-color:cadetblue;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px black;
+    color: rgb(50,50,50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1em;
+}
+#wctc {
+    width: 150px;
+    height: 80px;
+    float: right;
+    margin-top: 0.1em;
+    margin-right: 1em;
+}
+#header {
+    width: fit-content;
+    margin: auto;
+    background-color:aqua;
+    border: solid 2px dodgerblue;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    padding: 0.5em;
+}
+#header h1 {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: fit-content;
+    background-color:aqua;
+    border: solid 2px dodgerblue;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+}
+nav a {
+    font-size: 32px;
+    text-decoration: none;
+    color:rgb(30,30,30);
+}
+nav a:hover {
+    color: blue;
+}
+.content {
+    width: fit-content;
+    background-color: aqua;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: solid 2px dodgerblue;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.5em;
+}
+.content h1 {
+    margin:0;
+    padding:0;
+    font-size: 24px;
+}
+.content p {
+    font-size: 20px;
+    margin:0;
+    padding:0;
+}
+#cs-div {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+footer {
+    padding-left: 2em;
+}
